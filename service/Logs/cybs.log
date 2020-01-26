@@ -93,3 +93,230 @@
 2020-01-20 21:59:27,100- Host:   apitest.cybersource.com
 2020-01-20 21:59:27,100- Digest:SHA-256=uV5qcvsUmTpb+z2MXeFlq7Cdl4T8wTK/Rq9BrybNeqc=
 2020-01-20 21:59:27,100- Signature:     keyid="08c94330-f618-42a3-b09d-e1e43be5efda", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="jj0/6Sj53yZSYzSfIDGRr0G6ozuKmQKhjKMwYUTvpvY="
+2020-01-25 18:10:58,593- START> ======================================= 
+2020-01-25 18:10:58,593- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:10:58,597- Using Request Target:   /pts/v2/payments
+2020-01-25 18:10:58,597- Authentication Type:   http_signature
+2020-01-25 18:10:58,597- Request-Type:      POST
+2020-01-25 18:10:58,597- Content-Type:   application/json
+2020-01-25 18:10:58,597- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:10:58,597- Date:   Sat, 25 Jan 2020 21:10:58 GMT
+2020-01-25 18:10:58,597- Host:   apitest.cybersource.com
+2020-01-25 18:10:58,597- Digest:SHA-256=LyG1UeMe2w7VTs12zIPCfUeMKt7bCFvB9ca5AqgrsyI=
+2020-01-25 18:10:58,597- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="0/xr6+H3RgPKPMb3U4ClBqRTeq7NLg6Pft030+iL+0s="
+2020-01-25 18:18:14,761- START> ======================================= 
+2020-01-25 18:18:14,761- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:18:14,761- Using Request Target:   /tss/v2/transactions/5799866576386041903001
+2020-01-25 18:18:14,761- Authentication Type:   http_signature
+2020-01-25 18:18:14,761- Request-Type:      GET
+2020-01-25 18:18:14,761- Content-Type:   application/json
+2020-01-25 18:18:14,761- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:18:14,761- Date:   Sat, 25 Jan 2020 21:18:14 GMT
+2020-01-25 18:18:14,761- Host:   apitest.cybersource.com
+2020-01-25 18:18:14,761- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) v-c-merchant-id", signature="/qJ3QZHhMJgjcOAUCJXrGpO+33eZT+lxjWm3SwP5Bvw="
+2020-01-25 18:25:43,598- START> ======================================= 
+2020-01-25 18:25:43,598- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:25:43,598- Using Request Target:   /pts/v2/payments
+2020-01-25 18:25:43,598- Authentication Type:   http_signature
+2020-01-25 18:25:43,598- Request-Type:      POST
+2020-01-25 18:25:43,598- Content-Type:   application/json
+2020-01-25 18:25:43,598- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:25:43,598- Date:   Sat, 25 Jan 2020 21:25:43 GMT
+2020-01-25 18:25:43,598- Host:   apitest.cybersource.com
+2020-01-25 18:25:43,598- Digest:SHA-256=/ZyDTnGNxEzft3wDlJpHm5ec11hYst9r7BOgjdqrsXI=
+2020-01-25 18:25:43,598- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="xfP+mX7Uq0Q2XbOX6FFslb/8T96VC8DAPmGKd9jevv4="
+2020-01-25 18:26:33,602- START> ======================================= 
+2020-01-25 18:26:33,606- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:26:33,606- Using Request Target:   /pts/v2/payments
+2020-01-25 18:26:33,606- Authentication Type:   http_signature
+2020-01-25 18:26:33,606- Request-Type:      POST
+2020-01-25 18:26:33,606- Content-Type:   application/json
+2020-01-25 18:26:33,606- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:26:33,606- Date:   Sat, 25 Jan 2020 21:26:33 GMT
+2020-01-25 18:26:33,606- Host:   apitest.cybersource.com
+2020-01-25 18:26:33,606- Digest:SHA-256=LyG1UeMe2w7VTs12zIPCfUeMKt7bCFvB9ca5AqgrsyI=
+2020-01-25 18:26:33,606- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="VlNgoFmtvdvJsvJro6lqxXWMQ2xx9sLmlDh/e5oVrHY="
+2020-01-25 18:45:14,891- START> ======================================= 
+2020-01-25 18:45:14,891- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:45:14,891- Using Request Target:   /pts/v2/payments
+2020-01-25 18:45:14,891- Authentication Type:   http_signature
+2020-01-25 18:45:14,891- Request-Type:      POST
+2020-01-25 18:45:14,891- Content-Type:   application/json
+2020-01-25 18:45:14,891- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:45:14,891- Date:   Sat, 25 Jan 2020 21:45:14 GMT
+2020-01-25 18:45:14,891- Host:   apitest.cybersource.com
+2020-01-25 18:45:14,891- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:45:14,891- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="KYF9BdhSXwZ7WQYts1VqZ31uHCIhOY4OMsH6D18MpmQ="
+2020-01-25 18:47:11,707- START> ======================================= 
+2020-01-25 18:47:11,711- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:47:11,711- Using Request Target:   /pts/v2/payments
+2020-01-25 18:47:11,711- Authentication Type:   http_signature
+2020-01-25 18:47:11,711- Request-Type:      POST
+2020-01-25 18:47:11,711- Content-Type:   application/json
+2020-01-25 18:47:11,711- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:47:11,711- Date:   Sat, 25 Jan 2020 21:47:11 GMT
+2020-01-25 18:47:11,711- Host:   apitest.cybersource.com
+2020-01-25 18:47:11,711- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:47:11,711- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="7IfgmfijuYih8Ok9a1j3oMOAEX6ern0+tqIpmTRwws8="
+2020-01-25 18:47:44,251- START> ======================================= 
+2020-01-25 18:47:44,251- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:47:44,251- Using Request Target:   /pts/v2/payments
+2020-01-25 18:47:44,251- Authentication Type:   http_signature
+2020-01-25 18:47:44,251- Request-Type:      POST
+2020-01-25 18:47:44,251- Content-Type:   application/json
+2020-01-25 18:47:44,251- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:47:44,255- Date:   Sat, 25 Jan 2020 21:47:44 GMT
+2020-01-25 18:47:44,255- Host:   apitest.cybersource.com
+2020-01-25 18:47:44,255- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:47:44,255- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="JPHtfDSqRbqivXbE5T17876ICXpRn12ImrATN9NUDcM="
+2020-01-25 18:48:59,639- START> ======================================= 
+2020-01-25 18:48:59,639- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:48:59,639- Using Request Target:   /pts/v2/payments
+2020-01-25 18:48:59,639- Authentication Type:   http_signature
+2020-01-25 18:48:59,639- Request-Type:      POST
+2020-01-25 18:48:59,639- Content-Type:   application/json
+2020-01-25 18:48:59,639- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:48:59,639- Date:   Sat, 25 Jan 2020 21:48:59 GMT
+2020-01-25 18:48:59,639- Host:   apitest.cybersource.com
+2020-01-25 18:48:59,639- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:48:59,639- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="G4HW1QjgfiSKV4Kb35zkW9lyyPgcOWVbr3cXzJKrHrA="
+2020-01-25 18:49:39,700- START> ======================================= 
+2020-01-25 18:49:39,700- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:49:39,700- Using Request Target:   /pts/v2/payments
+2020-01-25 18:49:39,700- Authentication Type:   http_signature
+2020-01-25 18:49:39,700- Request-Type:      POST
+2020-01-25 18:49:39,700- Content-Type:   application/json
+2020-01-25 18:49:39,700- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:49:39,700- Date:   Sat, 25 Jan 2020 21:49:39 GMT
+2020-01-25 18:49:39,700- Host:   apitest.cybersource.com
+2020-01-25 18:49:39,700- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:49:39,700- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="x02LrAvF3nikvEzWsQf4tcQeSNBAnvSnHjhn1MAq3ps="
+2020-01-25 18:50:04,781- START> ======================================= 
+2020-01-25 18:50:04,785- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:50:04,785- Using Request Target:   /pts/v2/payments
+2020-01-25 18:50:04,785- Authentication Type:   http_signature
+2020-01-25 18:50:04,785- Request-Type:      POST
+2020-01-25 18:50:04,785- Content-Type:   application/json
+2020-01-25 18:50:04,785- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:50:04,785- Date:   Sat, 25 Jan 2020 21:50:04 GMT
+2020-01-25 18:50:04,785- Host:   apitest.cybersource.com
+2020-01-25 18:50:04,785- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:50:04,785- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="LwRDjsegLAqUnYNHpS9JNVxrGuEy3vjbrmQ7W6i1AZA="
+2020-01-25 18:54:11,484- START> ======================================= 
+2020-01-25 18:54:11,484- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:54:11,484- Using Request Target:   /pts/v2/payments
+2020-01-25 18:54:11,484- Authentication Type:   http_signature
+2020-01-25 18:54:11,484- Request-Type:      POST
+2020-01-25 18:54:11,484- Content-Type:   application/json
+2020-01-25 18:54:11,484- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:54:11,484- Date:   Sat, 25 Jan 2020 21:54:11 GMT
+2020-01-25 18:54:11,484- Host:   apitest.cybersource.com
+2020-01-25 18:54:11,484- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:54:11,484- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="m/AKKC7SKCxjmPW3QjQvXfVK07Crl/AGPCHD+G+ENr0="
+2020-01-25 18:54:47,120- START> ======================================= 
+2020-01-25 18:54:47,120- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:54:47,120- Using Request Target:   /pts/v2/payments
+2020-01-25 18:54:47,120- Authentication Type:   http_signature
+2020-01-25 18:54:47,120- Request-Type:      POST
+2020-01-25 18:54:47,120- Content-Type:   application/json
+2020-01-25 18:54:47,120- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:54:47,120- Date:   Sat, 25 Jan 2020 21:54:47 GMT
+2020-01-25 18:54:47,120- Host:   apitest.cybersource.com
+2020-01-25 18:54:47,120- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:54:47,120- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="5hQwT/NXEAks7y8WgQtPgdZrltNUOwLMjh4TXwMlWR4="
+2020-01-25 18:57:20,801- START> ======================================= 
+2020-01-25 18:57:20,801- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:57:20,801- Using Request Target:   /pts/v2/payments
+2020-01-25 18:57:20,801- Authentication Type:   http_signature
+2020-01-25 18:57:20,801- Request-Type:      POST
+2020-01-25 18:57:20,801- Content-Type:   application/json
+2020-01-25 18:57:20,801- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:57:20,801- Date:   Sat, 25 Jan 2020 21:57:20 GMT
+2020-01-25 18:57:20,801- Host:   apitest.cybersource.com
+2020-01-25 18:57:20,801- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:57:20,801- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="VTRUj3wfJa4OQtelilqp+U4Iemw+Lb2iD+HK8jz7SiM="
+2020-01-25 18:58:49,079- START> ======================================= 
+2020-01-25 18:58:49,079- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 18:58:49,083- Using Request Target:   /pts/v2/payments
+2020-01-25 18:58:49,083- Authentication Type:   http_signature
+2020-01-25 18:58:49,083- Request-Type:      POST
+2020-01-25 18:58:49,083- Content-Type:   application/json
+2020-01-25 18:58:49,083- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 18:58:49,083- Date:   Sat, 25 Jan 2020 21:58:49 GMT
+2020-01-25 18:58:49,083- Host:   apitest.cybersource.com
+2020-01-25 18:58:49,083- Digest:SHA-256=HrAM2FF1QrMMEmzOUjZfFEn9zdgYLrGtfUw0kRwW/IQ=
+2020-01-25 18:58:49,083- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="8LGIYHW7L91twoqbpIft45ng8df1WXd9Jvf67ujNQgo="
+2020-01-25 19:06:06,779- START> ======================================= 
+2020-01-25 19:06:06,779- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 19:10:51,209- START> ======================================= 
+2020-01-25 19:10:51,209- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 19:10:51,209- Using Request Target:   /pts/v2/payments
+2020-01-25 19:10:51,209- Authentication Type:   http_signature
+2020-01-25 19:10:51,209- Request-Type:      POST
+2020-01-25 19:10:51,209- Content-Type:   application/json
+2020-01-25 19:10:51,209- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 19:10:51,209- Date:   Sat, 25 Jan 2020 22:10:51 GMT
+2020-01-25 19:10:51,209- Host:   apitest.cybersource.com
+2020-01-25 19:10:51,209- Digest:SHA-256=eTMj2egNcB7qx1rw2O3ONRFeR/rEUXXJ+ud1tTzA1eg=
+2020-01-25 19:10:51,209- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="czGo3HWjPG4EQhutm8wnbozl5Yd8Z+zyfqJSYy5wv4w="
+2020-01-25 19:18:18,995- START> ======================================= 
+2020-01-25 19:18:18,995- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 19:18:18,995- Using Request Target:   /tss/v2/transactions/5799902501616949703004
+2020-01-25 19:18:18,995- Authentication Type:   http_signature
+2020-01-25 19:18:18,995- Request-Type:      GET
+2020-01-25 19:18:18,995- Content-Type:   application/json
+2020-01-25 19:18:18,995- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 19:18:18,995- Date:   Sat, 25 Jan 2020 22:18:18 GMT
+2020-01-25 19:18:18,995- Host:   apitest.cybersource.com
+2020-01-25 19:18:18,995- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) v-c-merchant-id", signature="bHWt51j9QEJZ1r1rcQS8Ir7bqQaraI4LUFIxvW02Iig="
+2020-01-25 19:28:06,464- START> ======================================= 
+2020-01-25 19:28:06,464- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 19:28:06,464- Using Request Target:   /pts/v2/payments
+2020-01-25 19:28:06,464- Authentication Type:   http_signature
+2020-01-25 19:28:06,464- Request-Type:      POST
+2020-01-25 19:28:06,464- Content-Type:   application/json
+2020-01-25 19:28:06,464- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 19:28:06,464- Date:   Sat, 25 Jan 2020 22:28:06 GMT
+2020-01-25 19:28:06,464- Host:   apitest.cybersource.com
+2020-01-25 19:28:06,464- Digest:SHA-256=HogYnMMgGkrd5zIB8+6dtAgzyoFBqCcONwyrS/UiVuo=
+2020-01-25 19:28:06,464- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) digest v-c-merchant-id", signature="oH15HnCba12Un7gZiCg/mUiAG3K/lZruZ7EqS+XPQ0Q="
+2020-01-25 19:38:06,693- START> ======================================= 
+2020-01-25 19:38:06,693- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 19:38:06,693- Using Request Target:   /tss/v2/transactions/5799912854116970803006
+2020-01-25 19:38:06,693- Authentication Type:   http_signature
+2020-01-25 19:38:06,693- Request-Type:      GET
+2020-01-25 19:38:06,693- Content-Type:   application/json
+2020-01-25 19:38:06,693- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 19:38:06,693- Date:   Sat, 25 Jan 2020 22:38:06 GMT
+2020-01-25 19:38:06,693- Host:   apitest.cybersource.com
+2020-01-25 19:38:06,693- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) v-c-merchant-id", signature="rodOdgF8Th0m6Koapi2gS59sJQec/nFCQSV6b7JEJ0s="
+2020-01-25 20:04:15,838- START> ======================================= 
+2020-01-25 20:04:15,838- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 20:04:15,838- Using Request Target:   /tss/v2/transactions/12226422982311783159
+2020-01-25 20:04:15,838- Authentication Type:   http_signature
+2020-01-25 20:04:15,838- Request-Type:      GET
+2020-01-25 20:04:15,838- Content-Type:   application/json
+2020-01-25 20:04:15,838- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 20:04:15,838- Date:   Sat, 25 Jan 2020 23:04:15 GMT
+2020-01-25 20:04:15,838- Host:   apitest.cybersource.com
+2020-01-25 20:04:15,838- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) v-c-merchant-id", signature="tAY02FeNaHRwjnSLQWsYNfhEl0kCadEFBwNS8l35amY="
+2020-01-25 20:04:44,547- START> ======================================= 
+2020-01-25 20:04:44,547- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 20:04:44,547- Using Request Target:   /tss/v2/transactions/5799912854116970803006
+2020-01-25 20:04:44,547- Authentication Type:   http_signature
+2020-01-25 20:04:44,547- Request-Type:      GET
+2020-01-25 20:04:44,547- Content-Type:   application/json
+2020-01-25 20:04:44,547- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 20:04:44,547- Date:   Sat, 25 Jan 2020 23:04:44 GMT
+2020-01-25 20:04:44,547- Host:   apitest.cybersource.com
+2020-01-25 20:04:44,547- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) v-c-merchant-id", signature="7zIL5uzs58SnpWCPuyxgHhkSVBREC+4zsteCrcbOZ2M="
+2020-01-25 20:13:43,068- START> ======================================= 
+2020-01-25 20:13:43,068- Mconfig >      {'authentication_type': 'http_signature', 'run_environment': 'CyberSource.Environment.SANDBOX', 'request_json_path': '', 'key_file_name': 'testrest', 'keys_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\resources', 'enable_log': 'True', 'timeout': '1000', 'log_file_name': 'cybs', 'log_maximum_size': '10487560', 'log_directory': 'F:\\CyberSource\\cyber-source-visa-test\\cyber-source-visa-test\\service\\Logs'}
+2020-01-25 20:13:43,068- Using Request Target:   /tss/v2/transactions/5799938845316842204003
+2020-01-25 20:13:43,068- Authentication Type:   http_signature
+2020-01-25 20:13:43,068- Request-Type:      GET
+2020-01-25 20:13:43,068- Content-Type:   application/json
+2020-01-25 20:13:43,068- v-c-merchant-id:   cyber_felipe_test
+2020-01-25 20:13:43,068- Date:   Sat, 25 Jan 2020 23:13:43 GMT
+2020-01-25 20:13:43,068- Host:   apitest.cybersource.com
+2020-01-25 20:13:43,068- Signature:     keyid="b0a2736c-c141-4ab9-9b59-41cd677e646f", algorithm="HmacSHA256", headers="host date (request-target) v-c-merchant-id", signature="26l4vUAzSkIiWo6DmW5VyWlR287ZkyGDjXkZhaEkhQk="

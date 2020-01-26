@@ -14,7 +14,7 @@ def authorize_payment(flag):
         request = CreatePaymentRequest()
 
         client_reference = Ptsv2paymentsClientReferenceInformation()
-        client_reference.code = "test_autocapture"
+        client_reference.code = "test_delayed_capture"
 
         request.client_reference_information = client_reference.__dict__
 
@@ -24,7 +24,12 @@ def authorize_payment(flag):
 
         auth_options = Ptsv2paymentsProcessingInformationAuthorizationOptions()
 
-        auth_options.auth_type = "AUTOCAPTURE"
+        
+        auth_options.initiator = {
+            "_merchant_initiated_transaction": {
+                "reason": "2"
+            }
+        }
 
         processing_info.authorization_options = auth_options.__dict__
 
@@ -49,7 +54,7 @@ def authorize_payment(flag):
 
         # Setting the amount details which needs to be Authorized
         amount_details = Ptsv2paymentsOrderInformationAmountDetails()
-        amount_details.total_amount = "11111"
+        amount_details.total_amount = "2222"
         amount_details.currency = "BRL"
         amount_details.service_fee_amount = "30.00"
 

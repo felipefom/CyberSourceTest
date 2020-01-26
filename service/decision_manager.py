@@ -3,7 +3,7 @@ import json
 import os
 from importlib.machinery import SourceFileLoader
 
-config_file = os.path.join(os.getcwd(), "../config", "Configuration.py")
+config_file = os.path.join(os.getcwd(), "config", "Configuration.py")
 configuration = SourceFileLoader("module.name", config_file).load_module()
 
 
@@ -12,7 +12,7 @@ def decision_manager_with_buyer_information():
         # Setting the json message body
         request = CreateDecisionManagerCaseRequest()
         client_reference = Riskv1decisionsClientReferenceInformation()
-        client_reference.code = "54323007"
+        client_reference.code = "6690"
         request.client_reference_information = client_reference.__dict__
 
         processing_info = Riskv1decisionsPaymentInformation()
@@ -33,8 +33,8 @@ def decision_manager_with_buyer_information():
         bill_to.company = "Visa"
         bill_to.email = "test@cybs.com"
 
-        amount_details = Riskv1decisionsOrderInformationAmountDetails("USD")
-        amount_details.total_amount = "144.14"
+        amount_details = Riskv1decisionsOrderInformationAmountDetails("BRL")
+        amount_details.total_amount = "6690"
 
         order_information.bill_to = bill_to.__dict__
         order_information.amount_details = amount_details.__dict__
@@ -50,7 +50,7 @@ def decision_manager_with_buyer_information():
 
         buyer_information = Riskv1decisionsBuyerInformation()
         buyer_information.hashed_password = ""
-        buyer_information.date_of_birth = "1998-5-5"
+        buyer_information.date_of_birth = "1987-5-5"
         buyer_information.personal_identification = []
 
         personal_identification0 = Ptsv2paymentsBuyerInformationPersonalIdentification()
